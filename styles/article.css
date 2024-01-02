@@ -1,0 +1,105 @@
+.minions-mousepad{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://assets2.razerzone.com/images/pnx.assets/3661f743ad4c48f058861b104004fe01/razer-customs-and-minions-homepage-desktop2x.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.minions-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0 0 0;
+  align-items: center;
+  color: var(--black);
+  gap: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.minions-paragraph {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+#articleShopBtn {
+  color: var(--black);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#articleShopBtn:hover {
+  border-bottom: 2px solid var(--white);
+}
+
+.lamborghini-laptop {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-blade16-lamborghini-homepage-desktop2x.webp');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.laptop-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0 0 0;
+  align-items: center;
+  color: var(--white);
+  gap: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.laptop-btn {
+  display: flex;
+  gap: 2rem;
+}
+
+#articleLearnBtn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--white);
+  font-size: 2rem;
+  font-family: 'Geologica', sans-serif;
+  cursor: pointer;
+}
+
+#articleLearnBtn span {
+  color: var(--principal-color);
+}
+
+#articleLearnBtn:hover {
+  border-bottom: 2px solid var(--principal-color);
+}
+
+
+#laptopShopBtn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--white);
+  font-size: 2rem;
+  font-family: 'Geologica', sans-serif;
+  cursor: pointer;
+}
+
+
+#laptopShopBtn span {
+  color: var(--principal-color);
+}
+
+#laptopShopBtn:hover {
+  border-bottom: 2px solid var(--principal-color);
+}
+
+/* Geologica */

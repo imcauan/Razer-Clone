@@ -1,0 +1,59 @@
+.main-page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url('https://assets2.razerzone.com/images/pnx.assets/05575b50e6ed9a1d9a5615c544f6bc63/holiday-gift-guide-rgb-small-2x.webp');
+  background-repeat: no-repeat;
+}
+
+.limited-time {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #999;
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem 0 0 0;
+  color: var(--white);
+  gap: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+#shopNowBtn {
+  font-size: 2rem;
+  background-color: transparent;
+  color: var(--white);
+  transition: 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+#shopNowBtn span {
+  color: var(--principal-color);
+}
+
+#shopNowBtn:hover {
+  border-bottom: 2px solid var(--principal-color);
+}
+
+@media (min-width: 1080px) {
+  .main-page {
+    background-image: url('https://assets2.razerzone.com/images/pnx.assets/05575b50e6ed9a1d9a5615c544f6bc63/holiday-gift-guide-rgb-homepage-large-2x.webp');
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+}
