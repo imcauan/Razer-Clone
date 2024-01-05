@@ -76,6 +76,23 @@
   }
 }
 
+
+@media (max-width: 1079px) {
+  #menuContent.active li {
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+  }
+
+  #hamburgerMenu {
+    display: flex;
+  }
+
+  #menuContent {
+    display: none;
+  }
+}
+
+
 @media (min-width: 1080px) {
 
   .nav{ 

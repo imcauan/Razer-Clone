@@ -46,6 +46,25 @@
   border-bottom: 2px solid var(--principal-color);
 }
 
+@media (max-width: 1079px) {
+
+  .main-page {
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  .main-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+}
+
+
+
+
 @media (min-width: 1080px) {
   .main-page {
     background-image: url('https://assets2.razerzone.com/images/pnx.assets/05575b50e6ed9a1d9a5615c544f6bc63/holiday-gift-guide-rgb-homepage-large-2x.webp');
